@@ -1,11 +1,11 @@
 @font-face{
     font-family:outfit;
-    src : "./assets/fonts/outfit/static/Outfit-Medium.ttf";
+    src : "Outfit-Medium.ttf";
 }
 
 @font-face{
         font-family:young-serif;
-        src : "./assets/fonts/young-serif/YoungSerif-Regular.ttf";
+        src : "YoungSerif-Regular.ttf";
 }
 
 h1, h2, h3{
