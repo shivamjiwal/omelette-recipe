@@ -1,0 +1,178 @@
+@font-face{
+    font-family:outfit;
+    src : "./assets/fonts/outfit/static/Outfit-Medium.ttf";
+}
+
+@font-face{
+        font-family:young-serif;
+        src : "./assets/fonts/young-serif/YoungSerif-Regular.ttf";
+}
+
+h1, h2, h3{
+    font-family:outfit;
+}
+
+p{
+    font-family:young-serif;
+    line-height:22px;
+    color:hsl(0, 0%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);/*it's called "Stone 100"*/
+    min-height:100vh;
+}
+
+.container{
+    background-color:white;
+    border:1px solid hsl(45, 30%, 96%);
+    border-radius:10px;
+    padding:20px 20px 23px 20px; 
+    max-width:600px;
+    width:100%;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+figure img{
+    padding:0;
+    margin:0;
+    border:1px solid white;
+    border-radius:10px;
+}
+
+@media (max-width: 768px){
+   .container {
+        max-width: 100%;   /* Force full width */
+        border-radius: 0;  /* Remove rounded corners for edge-to-edge mobile look */
+        padding-top:0; /* Remove top padding to allow the image to touch the top edge */
+   }
+
+    .nutrition-info {
+        padding: 10px 20px; /* Tighter padding for the smaller screen */
+    }
+
+    .container img {
+  width: 100%;
+  display: block; /* Removes the tiny white gap that sometimes appears under images */
+  height: auto;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent; /* Removes any background color */
+}
+
+}
+
+h1{
+    font-weight:bold;
+    color:hsl(0, 0%, 12%);
+    text-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.15);
+    font-size:2.5em;
+    margin:20px 0px;
+    letter-spacing: 0.5px;
+}
+
+.card{
+    display:block;
+    margin:25px 30px 30px 30px;
+    background-color: hsl(30, 54%, 95%);
+    padding:20px;
+    border:1px solid hsl(45, 30%, 96%);
+    box-shadow: 1px 1px 1px 1px hsla(45,30%, 96%, 0.2);
+    border-radius:10px;
+}
+
+.headliner{
+    font-size:1.4em;
+    margin-bottom:12px;
+    color:hsl(330, 45%, 35%);
+    text-shadow:1px 1px 2px hsla(330, 45%, 20%, 0.4);
+    letter-spacing:1px;
+}
+
+div ul{
+    margin:10px 0 0 20px;
+    line-height:30px;
+}
+
+div strong{
+    margin-left:12px;
+    color:hsl(0, 0%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+}
+
+li{
+ color:hsl(0, 0%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15)   
+}
+
+strong{
+    color:hsl(0, 0%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+}
+
+h2{
+    color:hsl(25, 45%, 37%);
+    text-shadow:1px 1px 2px hsla(25, 45%, 20%, 0.4);
+    font-size:2.2em;
+    margin:1px 0 20px 20px;
+}
+
+.ul-contrast{
+    margin:0 0 25px 45px;
+    line-height:35px;
+}
+
+.li-contrast{
+    color:hsl(0, 0%, 40%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 40%, 0.15);
+}
+
+hr{
+    color:hsl(0, 0%, 100%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 96%, 0.05);
+    max-width:515px;
+    margin:0 auto 30px auto;
+}
+
+ol{
+    margin:0 0 25px 45px;
+    line-height:35px;
+}
+
+.para{
+    margin:0 5px 50px 20px;
+}
+
+.minerals{
+     color:hsl(0, 0%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+}
+
+.values{
+    color:hsl(20, 45%, 30%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 40%, 0.15);
+    font-weight:bold;
+}
+
+.nutrition-info {
+    display: flex;
+    justify-content: space-between; /* This pushes 'Calories' to the left and '.values' to the right */
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #eeeeee;
+}
